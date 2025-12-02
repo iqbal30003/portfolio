@@ -5,8 +5,18 @@ export default function Skills(){
   return (
     <section>
       <h2 className="section-title">Skills</h2>
+
       <div className="card" style={{display:'flex', gap:10, flexWrap:'wrap'}}>
-        {skills.map(s => <div key={s} style={{padding:'6px 10px', background:'#f1f5f9', borderRadius:6}}>{s}</div>)}
+        {skills.map(s =>
+          <div key={s} style={{
+            padding:'6px 10px',
+            background:'var(--card)',
+            border:'1px solid var(--muted)',
+            borderRadius:6
+          }}>
+            {s}
+          </div>
+        )}
       </div>
     </section>
   )

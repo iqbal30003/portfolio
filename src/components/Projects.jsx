@@ -1,24 +1,24 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 
-const sampleProjects = [
+const projects = [
   {
     title: 'Employee Management System',
-    desc: 'Laravel + React full-stack CRUD app with auth and dashboard.',
+    desc: 'Laravel + React CRUD system with auth and departments.',
     img: '/project1.png',
     demo: '#',
     code: '#'
   },
   {
     title: 'Inventory System',
-    desc: 'Stock management with categories, stock alerts and reports.',
+    desc: 'Stock management tool with categories and alerts.',
     img: '/project2.png',
     demo: '#',
     code: '#'
   },
   {
     title: 'Kuwait Salary Calculator',
-    desc: 'Calculate net salary with local deductions and allowances.',
+    desc: 'Net salary + allowances + deduction calculator.',
     img: '/project3.png',
     demo: '#',
     code: '#'
@@ -30,7 +30,7 @@ export default function Projects(){
     <section>
       <h2 className="section-title">Projects</h2>
       <div className="project-grid">
-        {sampleProjects.map(p => <ProjectCard key={p.title} {...p} />)}
+        {projects.map(p => <ProjectCard key={p.title} {...p} />)}
       </div>
     </section>
   )

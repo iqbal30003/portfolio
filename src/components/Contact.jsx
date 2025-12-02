@@ -7,8 +7,8 @@ export default function Contact(){
       <div className="card">
         <p>Email: <a href="mailto:Mirzaiqbal30003@gmail.com">Mirzaiqbal30003@gmail.com</a></p>
         <p>Phone: <strong>+965 51693055</strong></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/mirza-iqbal-sohail-327a942a3/">mirza-iqbal-sohail</a></p>
-        <p>GitHub: <a href="https://github.com/YOURUSERNAME">github.com/YOURUSERNAME</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mirza-iqbal-sohail-327a942a3/">Profile Link</a></p>
+        <p>GitHub: <a href="https://github.com/iqbal30003">github.com/iqbal30003</a></p>
       </div>
     </section>
   )
