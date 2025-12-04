@@ -3,25 +3,11 @@ import ProjectCard from './ProjectCard'
 
 const projects = [
   {
-    title: 'Employee Management System',
-    desc: 'Laravel + React CRUD system with auth and departments.',
-    img: '/project1.png',
-    demo: '#',
-    code: '#'
-  },
-  {
-    title: 'Inventory System',
-    desc: 'Stock management tool with categories and alerts.',
-    img: '/project2.png',
-    demo: '#',
-    code: '#'
-  },
-  {
-    title: 'Kuwait Salary Calculator',
-    desc: 'Net salary + allowances + deduction calculator.',
-    img: '/project3.png',
-    demo: '#',
-    code: '#'
+    title: 'Smart Service Booking Platform',
+    desc: 'Built with React, Node.js, MongoDB & Express. Demonstrates full-stack development, user authentication, service listings & booking system.',
+    img: '/smart service booking home_page-0001.jpg',
+    demo: 'https://smart-service-booking-platform.vercel.app/',
+    code: 'https://github.com/iqbal30003/Smart-Service-Booking-Platform/tree/main'
   }
 ]
 
